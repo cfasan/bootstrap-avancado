@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A+ Cursos</title>
+    <link rel="stylesheet" href="./lib/bs-style.css">
+    <link rel="stylesheet" href="./lib/style.css">
+    <link rel="shortcut icon" href="./images/logo-simplificada.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#"><img src="./images/logo.png" alt="Loga da escola de cursos A+"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item h3">
+                            <a class="nav-link" href="#sobre">A escola</a>
+                        </li>
+                        <li class="nav-item h3">
+                            <a class="nav-link" href="#cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item h3">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="5000" class="carousel-item active position-relative">
+                <img class="d-block w-100" src="./images/slide1.jpg" alt="2023 para 2024">
+            </div>
+            <div data-bs-interval="5000" class="carousel-item">
+                <img class="d-block w-100" src="./images/slide2.jpg" alt="CAN">
+            </div>
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-target="#main-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#main-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <section id="sobre" class="mt-5 mb-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <h2 class="mb-5">A ESCOLA</h2>
+                    <p class="h4">
+                        Fundada em 2024, nossa escola passou por um rigoroso planejamento e desenvoldimento para atender às exigências do mercado.
+                        Trazendo inovação e modernidade no quesito educação. Nossos professores são altamente capacitados para o ensino, todos 
+                        passaram por uma rigorosa seleção para que nossos alunos tenham o melhor dos ensinos.
+                    </p>
+                    <p class="h4">
+                        Alinhados à excelência do corpo docente, nossos cursos são totalmente atualizados. Usamos todas as tecnologias atuais.
+                        Possuímos um time comprometido em sempre trazer um conteúdo atualizado para as salas de aulas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cursos" class="mt-5 p-5">
+        <div class="container">
+            <h2 class="mb-5">CURSOS</h2>
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-5">
+                        <header class="card-header text-center">
+                            <h5 class="fw-bold">Contrução Civil</h5>
+                        </header>
+                        <body class="card-body">
+                            <img src="./images/contrucao-civil.jpg" alt="Contrução Civil">
+                        </body>
+                        <footer class="card-footer">
+                            <p class="card-text">
+                                Curso moderno voltado para a construção civil contendo as principais e 
+                                mais inovadoras ferramentas da engenharia civil.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#">
+                                    <button type="button" class="btn btn-primary">
+                                        Detalhes do Curso
+                                    </button>
+                                </a>
+                                <div class="contato-wpp" data-bs-toggle="modal" data-bs-target="#modal-contato-wpp">
+                                    <img src="./images/whatsapp.png" alt="Logo Whatsapp">
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-5">
+                        <header class="card-header text-center">
+                            <h5 class="fw-bold">Instant Delivery</h5>
+                        </header>
+                        <body class="card-body">
+                            <img src="./images/delivery.jpg" alt="Instant Delivery">
+                        </body>
+                        <footer class="card-footer">
+                            <p class="card-text">
+                                Novo conceito em delivery que visa atender melhor à demanda cada vez maior no mundo globalizado.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#">
+                                    <button type="button" class="btn btn-primary">
+                                        Detalhes do Curso
+                                    </button>
+                                </a>
+                                <div class="contato-wpp" data-bs-toggle="modal" data-bs-target="#modal-contato-wpp">
+                                    <img src="./images/whatsapp.png" alt="Logo Whatsapp">
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-5">
+                        <header class="card-header text-center">
+                            <h5 class="fw-bold">E-Commerce</h5>
+                        </header>
+                        <body class="card-body">
+                            <img src="./images/e-commerce.jpg" alt="E-Commerce">
+                        </body>
+                        <footer class="card-footer">
+                            <p class="card-text">
+                                Modelos inovadores de aplicação te esperam neste curso super atualizado.
+                                Aprenda como expandir com E-Commerce.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#">
+                                    <button type="button" class="btn btn-primary">
+                                        Detalhes do Curso
+                                    </button>
+                                </a>
+                                <div class="contato-wpp" data-bs-toggle="modal" data-bs-target="#modal-contato-wpp">
+                                    <img src="./images/whatsapp.png" alt="Logo Whatsapp">
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-5">
+                        <header class="card-header text-center">
+                            <h5 class="fw-bold">Empreendorismo</h5>
+                        </header>
+                        <body class="card-body">
+                            <img src="./images/empreendorismo.jpg" alt="Empreendorismo">
+                        </body>
+                        <footer class="card-footer">
+                            <p class="card-text">
+                                Em um mundo cada vez mais competitivo, faz-se necessário estar melhor preparado.
+                                Veja como empreender em 2024.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#">
+                                    <button type="button" class="btn btn-primary">
+                                        Detalhes do Curso
+                                    </button>
+                                </a>
+                                <div class="contato-wpp" data-bs-toggle="modal" data-bs-target="#modal-contato-wpp">
+                                    <img src="./images/whatsapp.png" alt="Logo Whatsapp">
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-5">
+                        <header class="card-header text-center">
+                            <h5 class="fw-bold">Dublagem</h5>
+                        </header>
+                        <body class="card-body">
+                            <img src="./images/dublagem.jpg" alt="Dublagem">
+                        </body>
+                        <footer class="card-footer">
+                            <p class="card-text">
+                                Entre no mundo da dublagem sabendo todos os conceitos modernos que envolvem essa arte.
+                                Não deixe a dublagem morrer. 
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#">
+                                    <button type="button" class="btn btn-primary">
+                                        Detalhes do Curso
+                                    </button>
+                                </a>
+                                <div class="contato-wpp" data-bs-toggle="modal" data-bs-target="#modal-contato-wpp">
+                                    <img src="./images/whatsapp.png" alt="Logo Whatsapp">
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-5">
+                        <header class="card-header text-center">
+                            <h5 class="fw-bold">Música</h5>
+                        </header>
+                        <body class="card-body">
+                            <img src="./images/musica.jpg" alt="Música">
+                        </body>
+                        <footer class="card-footer">
+                            <p class="card-text">
+                                De iniciante à avançado. Neste curso apresentado com uma didática moderna, 
+                                a música se autoexplica.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#">
+                                    <button type="button" class="btn btn-primary">
+                                        Detalhes do Curso
+                                    </button>
+                                </a>
+                                <div class="contato-wpp" data-bs-toggle="modal" data-bs-target="#modal-contato-wpp">
+                                    <img src="./images/whatsapp.png" alt="Logo Whatsapp">
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="modal-contato-wpp" class="modal" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="text-center">Deixe-nos uma mensagem no Whatsapp</h5>
+                </div>
+                <div class="modal-body">
+                    <form id="contato-via-wpp">
+                        <p id="cursoEscolhido"></p>
+                        <label for="telefone-modal" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" id="telefone-modal" name="telefone-modal" required>
+                        <label for="email-modal" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email-modal" name="email-modal" required>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" name="enviar" class="btn btn-success" data-bs-dismiss="modal">
+                        Enviar
+                    </button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                        Cancelar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="form">
+                        <h2>Deixe-nos um comentário</h2>
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="tel" class="form-control" id="telefone" name="telefone" required>
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                        <textarea name="comentario" id="comentario" placeholder="Seu comentário aqui..." class="form-control d-block mb-2 mt-2 resize-none"></textarea>
+                        <button type="submit" class="btn btn-success mb-2">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="text-center">
+            &copy; 2024 - Todos os direitos resevervados 
+        </p>
+    </footer>
+    <script src="./lib/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./lib/bs-script.js"></script>
+    <script src="./lib/script.js"></script>
+</body>
+</html>

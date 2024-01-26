@@ -1,0 +1,53 @@
+body {
+    font-family: Bai Jamjuree, sans-serif;
+}
+
+header {
+    background-color: #6F42C1;
+}
+
+.navbar img {
+    height: 70px;
+}
+
+.nav-link {
+    color: #fff;
+    text-align: center;
+}
+
+#sobre p {
+    text-align: justify;
+}
+
+#cursos {
+    background-color: #6F42C1;
+}
+
+#cursos h2 {
+    color: #fff;
+}
+
+.card-footer {
+    text-align: justify;
+}
+
+.contato-wpp img {
+    height: 36px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #6F42C1;
+}
+
+
+
+
+
+
